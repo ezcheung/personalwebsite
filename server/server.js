@@ -2,6 +2,7 @@ var express = require('express');
 var path = require('path');
 var app = express();
 var browserify = require('browserify-middleware');
+var firebase = require('firebase');
 app.use(express.static(path.join(__dirname, "../client/public")));
 
 app.get('/bundle.js',
