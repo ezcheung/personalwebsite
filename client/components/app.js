@@ -10,17 +10,12 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      page: 'intro',
-    }
-    this.pageMap = {
-      0: 'intro',
-      1: 'education',
-      2: 'portfolio'
+      page: 'Introduction',
     }
   }
 
-  changePage(pageNum) {
-    this.setState({page: this.pageMap[pageNum]});
+  changePage(page) {
+    this.setState({page: page});
     console.log("App state: ", this.state);
   }
 
