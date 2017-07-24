@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
+import NavButton from './navButton';
 
 export default class Navbar extends React.Component {
 
@@ -11,11 +12,14 @@ export default class Navbar extends React.Component {
     let _this = this;
     this.pages = ['Introduction', 'Skills', 'Portfolio'];
     this.sliderProps = {
+      dots: true,
+      arrows: true,
       slidesToShow: 1,
       afterChange: function(pageNum) {
         _this.props.changePage(_this.pages[pageNum]);
-        _this.setState({currPage: pageNum})
-      }
+        _this.setState({currPage: pageNum});
+        _this.forceUpdate();
+      },
     }
   }
 
