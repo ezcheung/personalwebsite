@@ -20,7 +20,8 @@
     "react-dom": "^15.3.2",
     "react-router": "^2.8.1",
     "react-slick": "^0.14.11",
-    "react-sound": "^0.5.2"
+    "react-sound": "^0.5.2",
+    "slick-carousel": "^1.6.0"
   },
   "author": "Elliot Cheung"
 }
