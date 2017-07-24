@@ -1,10 +1,9 @@
 body{
   font-family: 'Source Sans Pro', sans-serif;
-  /*background-image: url('assets/sayagata-400px.png');*/
+  background-image: url('assets/sayagata-400px.png');
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: blue;
 }
 
 .image{
@@ -28,7 +27,6 @@ body{
   flex-direction: column;
   align-items: center;
   animation: fadein 1.5s;
-  background-image: url('assets/sayagata-400px.png') !important;
 }
 
 @keyframes fadein {
@@ -56,16 +54,19 @@ body{
 
 #navContainer{
   text-align: center;
+  width:40%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .page{
   margin-left: auto;
   margin-right: auto;
 }
 
-.slick-prev{
-  left: 25%;
-}
-
-.slick-next{
-  right: 25%;
+.slick-next:before, .slick-prev:before {
+  font-size: 20px;
+  line-height: 1;
+  opacity: .5;
+  color: #0298F5;
 }
