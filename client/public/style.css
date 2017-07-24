@@ -1,0 +1,14 @@
+.image{
+  flex: 1;
+  max-height: 200px;
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+#gallery{
+  display: flex;
+  align-items: center;
+  max-height: 50%;
+  width: 100%;
+  justify-content: center;
+}

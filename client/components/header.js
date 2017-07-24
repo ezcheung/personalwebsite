@@ -6,12 +6,7 @@ export default class Header extends React.Component {
     super(props);
     this.imageCount = 3;
     this.sliderSettings = {
-      id: 'gallery',
       dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
     }
   }
 
@@ -23,12 +18,16 @@ export default class Header extends React.Component {
     return toReturn;
   }
 
+  // <Slider {...this.sliderSettings}>
+  //   {this.images()}
+  // </Slider>
+
   render() {
     return (
       <div id='header'>
-        <Slider {...this.sliderSettings}>
-          {this.images()}
-        </Slider>
+        <div id='gallery'>
+          <img className='image' src='assets/images/img1.png'></img>
+        </div>
       </div>
     )
   }
