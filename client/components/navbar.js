@@ -7,7 +7,7 @@ export default class Navbar extends React.Component {
     super(props);
     let _this = this;
     this.sliderProps = {
-      slidesToShow: 3,
+      slidesToShow: 1,
       afterChange: function(pageNum) {
         _this.props.changePage(pageNum);
       }
@@ -18,9 +18,9 @@ export default class Navbar extends React.Component {
     return (
       <div id="navContainer">
         <Slider {...this.sliderProps}>
-          <div className="page">Intro</div>
           <div className="page">Portfolio</div>
-          <div className="page">Education</div>
+          <div className="page">Introduction</div>
+          <div className="page">Skills</div>
         </Slider>
       </div>)
   }
