@@ -5,11 +5,11 @@ export default class Navbar extends React.Component {
 
   constructor(props) {
     super(props);
+    let _this = this;
     this.sliderProps = {
       slidesToShow: 3,
-      afterChange: function(slick, slide) {
-        console.log("Slick: ", slick);
-        console.log("Slide: ", slide);
+      afterChange: function(pageNum) {
+        _this.props.changePage(pageNum);
       }
     }
   }

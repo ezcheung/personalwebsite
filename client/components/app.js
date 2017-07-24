@@ -19,15 +19,16 @@ export default class App extends React.Component {
     }
   }
 
-  changePage() {
-
+  changePage(pageNum) {
+    this.setState({page: this.pageMap[pageNum]});
+    console.log("App state: ", this.state);
   }
 
   render() {
     return (
       <div>
         <Header/>
-        <Navbar/>
+        <Navbar changePage={this.changePage.bind(this)}/>
       </div>
     )
   }
