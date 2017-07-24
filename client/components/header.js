@@ -28,6 +28,9 @@ export default class Header extends React.Component {
         <div id='gallery'>
           <img className='image' src='assets/images/img1.png'></img>
         </div>
+        <h1 id='myName'>Elliot Cheung</h1>
+        <h3 className='info'>Houston, TX</h3>
+        <h3 className='info'>elliotccheung@gmail.com</h3>
       </div>
     )
   }
