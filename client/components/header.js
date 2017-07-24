@@ -31,6 +31,14 @@ export default class Header extends React.Component {
         <h1 id='myName'>Elliot Cheung</h1>
         <h3 className='info'>Houston, TX</h3>
         <h3 className='info'>elliotccheung@gmail.com</h3>
+        <div id='links'>
+          <a href='https://github.com/ezcheung'>
+            <img className='link' src='assets/GitHub-Mark-32px.png'></img>
+          </a>
+          <a href='https://linkedin.com/in/elliot-cheung'>
+            <img className='link' src='assets/linkedin.png'></img>
+          </a>
+        </div>
       </div>
     )
   }

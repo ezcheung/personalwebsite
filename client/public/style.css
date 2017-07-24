@@ -42,3 +42,12 @@ body{
 .info{
   margin-bottom:0;
 }
+
+#links{
+  margin-top: 10px;
+}
+
+.link{
+  height: 28px;
+  padding: 5px;
+}
