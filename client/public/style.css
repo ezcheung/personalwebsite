@@ -71,3 +71,10 @@ body{
   opacity: .5;
   color: #0298F5;
 }
+
+.spiel {
+  margin-top: 20px;
+  width: 50%;
+  left: auto;
+  right: auto;
+}
