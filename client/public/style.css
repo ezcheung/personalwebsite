@@ -27,6 +27,7 @@ body{
   flex-direction: column;
   align-items: center;
   animation: fadein 1.5s;
+  margin-bottom: 25px;
 }
 
 @keyframes fadein {

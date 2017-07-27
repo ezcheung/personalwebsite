@@ -12,7 +12,7 @@ export default class Navbar extends React.Component {
     let _this = this;
     this.pages = ['Introduction', 'Skills', 'Portfolio'];
     this.sliderProps = {
-      dots: true,
+      dots: false,
       arrows: true,
       slidesToShow: 1,
       afterChange: function(pageNum) {

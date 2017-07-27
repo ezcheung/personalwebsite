@@ -5,6 +5,7 @@ The head app page
 import React from 'react';
 import Header from './header';
 import Navbar from './navbar';
+import Introduction from './introduction';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -24,6 +25,7 @@ export default class App extends React.Component {
       <div>
         <Header/>
         <Navbar changePage={this.changePage.bind(this)}/>
+        <Introduction/>
       </div>
     )
   }
