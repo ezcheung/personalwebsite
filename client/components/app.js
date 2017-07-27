@@ -11,7 +11,11 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      page: 'Introduction',
+      page: 'Home',
+    }
+    this.pageMap = {
+      'Home': <Home/>,
+      'Introduction': <Introduction/>
     }
   }
 
@@ -23,9 +27,8 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <Header/>
         <Navbar changePage={this.changePage.bind(this)}/>
-        <Introduction/>
+        {this.pageMap[this.state.page]}
       </div>
     )
   }
