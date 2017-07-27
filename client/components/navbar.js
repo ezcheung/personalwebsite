@@ -10,7 +10,7 @@ export default class Navbar extends React.Component {
       currPage: 0
     }
     let _this = this;
-    this.pages = ['Introduction', 'Skills', 'Portfolio'];
+    this.pages = ['Home', 'Introduction', 'Skills', 'Portfolio'];
     this.sliderProps = {
       dots: false,
       arrows: true,
