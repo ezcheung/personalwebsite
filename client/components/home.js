@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
 
-export default class Header extends React.Component {
+export default class Home extends React.Component {
   constructor(props) {
     super(props);
     this.imageCount = 3;
@@ -24,7 +24,7 @@ export default class Header extends React.Component {
 
   render() {
     return (
-      <div id='header'>
+      <div id='home'>
         <div id='gallery'>
           <img className='image' src='assets/images/img1.png'></img>
         </div>
