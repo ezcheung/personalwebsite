@@ -1,4 +1,5 @@
 import React from 'react';
+import Project from './project';
 
 export default class Portfolio extends React.Component {
   constructor(props) {
@@ -26,7 +27,16 @@ export default class Portfolio extends React.Component {
     }]
   }
 
-  render() {
+  projectList() {
+    return this.projects.map((e, i) => <Project key={i} project={e} className="project"/>)
+  }
 
+  render() {
+    return (
+      <div id="portfolio" className="content">
+        <div id="projectList">
+          {projectList()}
+        </div>
+      </div>)
   }
 }
