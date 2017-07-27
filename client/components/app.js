@@ -6,6 +6,7 @@ import React from 'react';
 import Home from './home';
 import Navbar from './navbar';
 import Introduction from './introduction';
+import Portfolio from './portfolio';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -15,7 +16,8 @@ export default class App extends React.Component {
     }
     this.pageMap = {
       'Home': <Home/>,
-      'Introduction': <Introduction/>
+      'Introduction': <Introduction/>,
+      'Portfolio': <Portfolio/>
     }
   }
 

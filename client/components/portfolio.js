@@ -7,24 +7,25 @@ export default class Portfolio extends React.Component {
     this.projects = [
     {
       name: "Stately Shower",
-      image: "statelyshower.png",
+      image: "StatelyShower.png",
       url: "www.statelyshower.club"
     },
     {
       name: "PartnerUp",
-      image: "partnerup.png",
+      image: "PartnerUp.png",
       url: "partnerup.makerpass.com"
     },
     {
       name: "Co-Star",
-      image: "costar.png",
+      image: "Co-Star.png",
       url: "co-star.herokuapp.com"
     },
-    {
-      name: "This Website!",
-      image: "personalwebsite.png",
-      url: "www.elliotccheung.com"
-    }]
+    // {
+    //   name: "This Website!",
+    //   image: "personalwebsite.png",
+    //   url: "www.elliotccheung.com"
+    // }
+    ]
   }
 
   projectList() {
@@ -35,7 +36,7 @@ export default class Portfolio extends React.Component {
     return (
       <div id="portfolio" className="content">
         <div id="projectList">
-          {projectList()}
+          {this.projectList()}
         </div>
       </div>)
   }
