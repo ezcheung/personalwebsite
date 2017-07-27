@@ -39,6 +39,7 @@ export default class Header extends React.Component {
             <img className='link' src='assets/linkedin.png'></img>
           </a>
         </div>
+        <a href='/cv.pdf'>My CV</a> 
       </div>
     )
   }
