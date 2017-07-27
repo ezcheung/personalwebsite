@@ -100,7 +100,7 @@ body{
 }
 
 .projImg:hover{
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
 }
 
 /*.projImg::after {
