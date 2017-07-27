@@ -20,16 +20,16 @@ export default class Portfolio extends React.Component {
       image: "Co-Star.png",
       url: "https://co-star.herokuapp.com"
     },
-    // {
-    //   name: "This Website!",
-    //   image: "personalwebsite.png",
-    //   url: "www.elliotccheung.com"
-    // }
+    {
+      name: "This Website!",
+      image: "PartnerUp.png",
+      url: "https://www.elliotccheung.com"
+    },
     ]
   }
 
   projectList() {
-    return this.projects.map((e, i) => <Project key={i} project={e} className="project"/>)
+    return this.projects.map((e, i) => <Project key={i} project={e}/>)
   }
 
   render() {

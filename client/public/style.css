@@ -75,6 +75,40 @@ body{
 .spiel {
   margin-top: 20px;
   width: 50%;
-  left: auto;
-  right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+#projectList {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project {
+  flex: 1;
+  max-width: 30%;
+  margin: 20px;
+}
+
+.projImg {
+  max-width: 100%;
+  border: 1px solid black;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+  border-radius: 15px;
+}
+
+.projImg:hover{
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/*.projImg::after {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.projImg:hover::after {
+  opacity: 1;
+}*/
