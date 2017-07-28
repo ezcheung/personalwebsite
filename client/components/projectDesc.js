@@ -4,14 +4,16 @@ export default class ProjectDesc extends React.Component {
 
   constructor(props) {
     super(props);
-    this.project = this.props.project;
   }
 
   render() {
+    if(!this.props.project) {
+      return null;
+    }
     return (
       <div className="projDesc">
-        <h2>{this.project.name}</h2>
-        <p>{this.project.desc}</p>
+        <h2>{this.props.project.name}</h2>
+        <p>{this.props.project.desc}</p>
       </div>
     )
   }
