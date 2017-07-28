@@ -12,7 +12,7 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      page: 'Portfolio',
+      page: 'Home',
     }
     this.pageMap = {
       'Home': <Home/>,
@@ -23,7 +23,6 @@ export default class App extends React.Component {
 
   changePage(page) {
     this.setState({page: page});
-    console.log("App state: ", this.state);
   }
 
   render() {

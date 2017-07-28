@@ -10,11 +10,13 @@ export default class Navbar extends React.Component {
       currPage: 0
     }
     let _this = this;
-    this.pages = ['Home', 'Introduction', 'Skills', 'Portfolio'];
+    this.pages = ['Home', 'Introduction', 'Portfolio'];
     this.sliderProps = {
       dots: false,
-      arrows: true,
-      slidesToShow: 1,
+      arrows: false,
+      slidesToShow: this.pages.length,
+      focusOnSelect: true,
+      centerMode: true,
       afterChange: function(pageNum) {
         _this.props.changePage(_this.pages[pageNum]);
         _this.setState({currPage: pageNum});
