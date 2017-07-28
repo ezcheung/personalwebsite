@@ -8,22 +8,26 @@ export default class Portfolio extends React.Component {
     {
       name: "Stately Shower",
       image: "StatelyShower.png",
-      url: "https://www.statelyshower.club"
+      url: "https://www.statelyshower.club",
+      github: "https://www.github.com/ezcheung/stately-shower"
     },
     {
       name: "PartnerUp",
       image: "PartnerUp.png",
-      url: "https://partnerup.makerpass.com"
+      url: "https://partnerup.makerpass.com",
+      github: "https://www.github.com/makersquad/partnerup"
     },
     {
       name: "Co-Star",
       image: "Co-Star.png",
-      url: "https://co-star.herokuapp.com"
+      url: "https://co-star.herokuapp.com",
+      github: "https://www.github.com/hackmeco/co-star"
     },
     {
       name: "This Website!",
       image: "PartnerUp.png",
-      url: "https://www.elliotccheung.com"
+      url: "https://www.elliotccheung.com",
+      github: "https://www.github.com/ezcheung/personalwebsite"
     },
     ]
   }

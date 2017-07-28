@@ -97,18 +97,14 @@ body{
   box-shadow: 0 1px 2px rgba(0,0,0,0.15);
   transition: box-shadow 0.3s ease-in-out;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .projImg:hover{
   box-shadow: 0 8px 25px rgba(0,0,0,0.3);
 }
 
-/*.projImg::after {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+.projGit{
+  max-width: 24px;
 }
 
-.projImg:hover::after {
-  opacity: 1;
-}*/
