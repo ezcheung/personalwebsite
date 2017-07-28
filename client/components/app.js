@@ -5,7 +5,7 @@ The head app page
 import React from 'react';
 import Home from './home';
 import Navbar from './navbar';
-import Introduction from './introduction';
+import AboutProfessional from './aboutProfessional';
 import Portfolio from './portfolio';
 
 export default class App extends React.Component {
@@ -16,7 +16,7 @@ export default class App extends React.Component {
     }
     this.pageMap = {
       'Home': <Home/>,
-      'Introduction': <Introduction/>,
+      'About Me - Professional': <AboutProfessional/>,
       'Portfolio': <Portfolio/>
     }
   }
