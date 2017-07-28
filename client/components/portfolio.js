@@ -56,7 +56,7 @@ export default class Portfolio extends React.Component {
     },
     {
       name: "This Website! (2017)",
-      image: "PartnerUp.png",
+      image: "PersonalWebsite.png",
       url: "https://www.elliotccheung.com",
       github: "https://www.github.com/ezcheung/personalwebsite",
       desc: `This website that you're on was also built from scratch-- no templates or external site-builders here, just JavaScript!
