@@ -6,6 +6,13 @@ export default class ProjectDesc extends React.Component {
     super(props);
   }
 
+  bullets() {
+    if(!this.props.project || !this.props.project.bullets) return null;
+    return this.props.project.bullets.map((e, i) => 
+      <div className="bullet" key={i}>{"- " + e}</div>
+    )
+  }
+
   render() {
     if(!this.props.project) {
       return null;
@@ -13,7 +20,8 @@ export default class ProjectDesc extends React.Component {
     return (
       <div className="projDesc">
         <h2>{this.props.project.name}</h2>
-        <p>{this.props.project.desc}</p>
+        <div>{this.props.project.desc}</div>
+        {this.bullets()}
       </div>
     )
   }
