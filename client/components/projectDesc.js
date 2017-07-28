@@ -20,8 +20,8 @@ export default class ProjectDesc extends React.Component {
     return (
       <div className="projDesc">
         <h2>{this.props.project.name}</h2>
-        <div>{this.props.project.desc}</div>
-        {this.bullets()}
+        <div className="description">{this.props.project.desc}</div>
+        <div className="bulletList">{this.bullets()}</div>
       </div>
     )
   }

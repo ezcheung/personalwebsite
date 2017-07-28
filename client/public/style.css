@@ -108,3 +108,17 @@ body{
   max-width: 24px;
 }
 
+.projDesc{
+  margin-left: 15%;
+  margin-right: auto;
+  max-width: 60%;
+}
+
+.description{
+  margin-bottom: 8px;
+  font-size: 1.1em
+}
+
+.bulletList{
+  margin-left: 5%;
+}
