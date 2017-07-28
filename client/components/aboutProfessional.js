@@ -1,5 +1,6 @@
 import React from 'react';
 import ProfessionalSections from './professionalSections';
+import AboutSect from './aboutSect';
 
 export default class AboutProfessional extends React.Component {
   constructor(props) {
@@ -9,7 +10,7 @@ export default class AboutProfessional extends React.Component {
   list() {
     return ProfessionalSections.map((e, i) => 
       // even numbers have picture on right, odd on left
-      <ProfSect data={e} key={i} layout={i%2}/>
+      <AboutSect data={e} key={i} layout={i%2}/>
     )
   }
 

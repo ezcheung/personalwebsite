@@ -141,3 +141,31 @@ body{
   border: 1px solid rgba(0,0,0,1);
   font-weight: bold;
 }
+
+.aboutsectContent {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.aboutsectTitle {
+  margin-left: 5%;
+  margin-bottom: -5px;
+}
+.aboutsectImgDiv{
+  flex: 1;
+  text-align: center;
+}
+.aboutsectImg{
+  height: auto;
+  width: auto;
+  max-width: 50%;
+  border-radius: 50%;
+}
+
+.spiel{
+  flex: 7;
+  max-width: 50%;
+  margin-left: 5%;
+  line-height: 1.5em;
+}
