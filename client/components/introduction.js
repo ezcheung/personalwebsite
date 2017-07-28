@@ -15,7 +15,7 @@ export default class Introduction extends React.Component {
 
   render() {
     return (
-      <div id="intro" className="spiel">
+      <div id="intro" className="spiel content">
         {this.spiel}
       </div>
       )
