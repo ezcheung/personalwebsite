@@ -169,3 +169,9 @@ body{
   margin-left: 5%;
   line-height: 1.5em;
 }
+
+#skillsChart {
+  height: auto;
+  width: auto;
+  max-width: 40%;
+}
