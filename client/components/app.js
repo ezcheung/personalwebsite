@@ -12,11 +12,11 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      page: 'About Me - Professional',
+      page: 'Home',
     }
     this.pageMap = {
       'Home': <Home/>,
-      'About Me - Professional': <AboutProfessional/>,
+      'Education and Skills': <AboutProfessional/>,
       'Portfolio': <Portfolio/>
     }
   }
