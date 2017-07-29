@@ -11,5 +11,14 @@ module.exports = [
     building projects in teams. Hack Reactor equipped me with the skills for full-stack development in a variety of frameworks, which I have continued
     to refine through other projects, some of which can be found in my Portfolio above.`
     ]
+  },
+  {
+    title: 'Skills',
+    image: './assets/images/Skills Chart Edited.png',
+    spiels: [`On the left you can find my (self-assessed) proficiencies in a few different development skills
+    in nice, pretty chart form. While the ones listed are mainly towards full-stack JavaScript development, I am also skilled in other areas, 
+    including Java, MATLAB, Git, and Super Smash Bros. Melee for the Nintendo GameCube. A more extensive list of skills can be found
+    on my CV (or can be discovered through giving me a job interview :D)`],
+    doNotRound: true
   }
 ]

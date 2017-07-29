@@ -148,8 +148,17 @@ body{
   align-content: center;
 }
 
-.aboutsectTitle {
+.aboutsect1{
+  margin-right: 5%;
+}
+
+.aboutsectTitleL {
   margin-left: 5%;
+  margin-bottom: -5px;
+}
+
+.aboutsectTitleR {
+  margin-left: 50%;
   margin-bottom: -5px;
 }
 .aboutsectImgDiv{
@@ -171,7 +180,11 @@ body{
 }
 
 #skillsChart {
-  height: auto;
+  max-height: 250px;
   width: auto;
   max-width: 40%;
+}
+
+.doNotRound {
+  border-radius: 0 !important;
 }

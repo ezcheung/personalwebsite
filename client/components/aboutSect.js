@@ -16,7 +16,7 @@ export default class AboutSect extends React.Component {
     if(!this.props.layout) {
       return (
         <div className="aboutsect0">
-          <h1 className="aboutsectTitle">
+          <h1 className="aboutsectTitleL">
             {this.props.data.title}
           </h1>
           <div className="aboutsectContent">
@@ -24,7 +24,7 @@ export default class AboutSect extends React.Component {
               {this.paragraphs()}
             </div>
             <div className="aboutsectImgDiv">
-              <img className="aboutsectImg" src={this.props.data.image}></img>
+              <img className={this.props.data.doNotRound ? "aboutsectImg doNotRound" : "aboutsectImg"} src={this.props.data.image}></img>
             </div>
           </div>
         </div>
@@ -33,12 +33,12 @@ export default class AboutSect extends React.Component {
     else {
       return (
         <div className="aboutsect1">
-          <h1 className="aboutsectTitle">
+          <h1 className="aboutsectTitleR">
             {this.props.data.title}
           </h1>
           <div className="aboutsectContent">
             <div className="aboutsectImgDiv">
-              <img className="aboutsectImg" src={this.props.data.image}></img>
+              <img className={this.props.data.doNotRound ? "aboutsectImg doNotRound" : "aboutsectImg"} src={this.props.data.image}></img>
             </div>
             <div className="spiel">
               {this.paragraphs()}
