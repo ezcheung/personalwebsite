@@ -7,6 +7,7 @@ import Home from './home';
 import Navbar from './navbar';
 import AboutProfessional from './aboutProfessional';
 import Portfolio from './portfolio';
+import AboutPersonal from './aboutPersonal';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -17,7 +18,8 @@ export default class App extends React.Component {
     this.pageMap = {
       'Home': <Home/>,
       'Education and Skills': <AboutProfessional/>,
-      'Portfolio': <Portfolio/>
+      'Portfolio': <Portfolio/>,
+      'Personal': <AboutPersonal/>
     }
   }
 
