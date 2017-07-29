@@ -188,3 +188,7 @@ body{
 .doNotRound {
   border-radius: 0 !important;
 }
+
+#cv {
+  font-size: 1.35em;
+}

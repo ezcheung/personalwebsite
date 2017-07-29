@@ -10,18 +10,6 @@ export default class Home extends React.Component {
     }
   }
 
-  images() {
-    let toReturn = [];
-    for(let i = 1; i <= this.imageCount; i++) {
-      toReturn.push(<img src={'assets/images/img' + i + '.png'} className='image'></img>)
-    }
-    return toReturn;
-  }
-
-  // <Slider {...this.sliderSettings}>
-  //   {this.images()}
-  // </Slider>
-
   render() {
     return (
       <div id='home' className='content'>
@@ -39,7 +27,7 @@ export default class Home extends React.Component {
             <img className='link' src='assets/linkedin.png'></img>
           </a>
         </div>
-        <a href='/cv.pdf'>My CV</a> 
+        <a href='/cv.pdf' id='cv'>My CV</a> 
       </div>
     )
   }
