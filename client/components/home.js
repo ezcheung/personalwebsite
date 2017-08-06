@@ -13,6 +13,7 @@ export default class Home extends React.Component {
   render() {
     return (
       <div id='home' className='content'>
+        <p id='disclaimer'>Note: The design of www.elliotccheung.com has not yet been optimized for mobile, sorry!</p>
         <div id='gallery'>
           <img className='image' src='assets/images/img1.png'></img>
         </div>
